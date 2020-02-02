@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #222;
   height: 100%;
   width: 100%;
 }
@@ -117,8 +117,8 @@ footer {
 }
 
 main {
-  background-color: #ccc;
-  height: 250px;
+  background-color: #222;
+  height: 140px;
   width: 100%;
 }
 
@@ -139,13 +139,8 @@ main {
   align-items: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.25em;
+  font-size: 0.85em;
   height: 200px;
-}
-
-.wrapper span {
-  font-family: 'Lora', sans-serif;
-  font-size: 1.3em;
 }
 
 .flex-container {
@@ -162,12 +157,53 @@ main {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #222;
   width: 30%;
   height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/****** HEADER ******/
+
+.flex-container header {
+    justify-content: left;
+    padding: 0 20px;
+}
+
+/***** MAIN *****/
+
+main p {
+    padding: 20px;
+}
+
+/***** COLUMNS *****/
+
+#div-1,
+#div-2,
+#div-3 p {
+    padding: 0 20px;
+}
+
+#div-1 {
+    border-right: rgb(110, 110, 110) 1px solid;
+}
+
+#div-3 {
+    border-left: rgb(110, 110, 110) 1px solid;
+}
+
+/***** FOOTER *****/
+
+.flex-container footer {
+    justify-content: left;
+}
+
+footer img {
+    height: 24px;
+    width: 24px;
+    padding: 0 20px;
 }
 
 /* ==========================================================================
